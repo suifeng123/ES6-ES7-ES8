@@ -10,3 +10,4 @@ var handler = {
 var target = {_prop:'foo',prop:'foo'};
 var proxy = new Proxy(target,handler);
 console.log('_prop' in proxy);
+console.log("sfas");
